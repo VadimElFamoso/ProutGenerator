@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">PROUTGENERATOR V.1 - free version 1$ premium</h1>
+   
+    <div class="container">
+        <label for="">Silence :</label>
+        <input id="muted" type="radio" name="fart_intensity" value="muted">
+        <br>
+
+        <label for="">Petit prout :</label>
+        <input id="low_fart" type="radio" name="fart_intensity" value="low_fart_audio">
+        <br>
+
+        <label for="">Moyen prout :</label>
+        <input id="medium_fart" type="radio" name="fart_intensity" value="medium_fart_audio">
+        <br>
+
+        <label for="">GROS PROUT :</label>
+        <input id="high_fart" type="radio" name="fart_intensity" value="high_fart_audio">
+        <br>
+
+        <div class="hz_container">
+            <label for="">Choisissez l'intensité de votre prout en Hz (1Hz-1daHz) :</label><br>
+            <input type="range" id="hz_range" min="1" max="10"><br>
+            <span id="hz_range_value">Non-défini</span> 
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
