@@ -19,11 +19,8 @@ hz_range.oninput = function(){
     //Reset audio to pause on hz_range change :
     for(let i = 0; i < audio_array.length; i++){
         audio_array[i].pause();
-        audio_array[ik].currentTime = 0;  
+        audio_array[i].currentTime = 0;  
     }
-
-    
-    
 
     //Fart choice detector :
     console.log("Etat low:" + low_fart.checked);
